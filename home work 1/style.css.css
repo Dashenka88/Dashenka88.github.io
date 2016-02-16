@@ -6,6 +6,10 @@ body {
     background-color: #eee;
 }
 
+ul  { 
+    text-align: left;
+    
+}
 
 
 .main {
@@ -52,9 +56,7 @@ h2 {
 }
 
 
-ul {
-    width: 20
-}
+
 
 
 .section 
@@ -69,14 +71,12 @@ ul {
 }
 
 .priorities {
-    margin-top:20px;
-    width:40;
+    margin-top:20px;    
     font-size: 20px;
     padding-right: 70px;
     padding-left: 90px;   }
 
 
 
-
 p {
-    line-height: 20px;
+    line-height: 20px; }
