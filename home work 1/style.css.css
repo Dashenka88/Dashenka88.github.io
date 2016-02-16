@@ -1,56 +1,82 @@
-* {
-	margin: 0;
+* {margin: 0; padding: 0;} /* обнуляем отступы */
+
+
+body {
+    
+    background-color: #eee;
 }
 
-.wrapper{
-	background: #eee;
-	height: 660px;
-	margin: 10px 10px;
-	padding: 5px;
-	border-bottom: 5px solid black;
-	border-radius: 5px;
+
+
+.main {
+    width: 700px;
+    background: #fff;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(50, 50, 50, 0.2);
+       -moz-box-shadow: 0px 2px 5px 1px rgba(50, 50, 50, 0.2);
+            box-shadow: 0px 2px 5px 1px rgba(50, 50, 50, 0.2);
 }
 
-.container{
-	background: #fff;
-	margin: 0 auto;
-	padding: 0 40px;
-	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-	width: 380px;
+h1  {
+    text-align: center;
+    padding: 46px 0 6px 0;
 }
 
-.box {
-	background-color: #fff;
-	width: 350px;
-	padding: 10px;
-	border-bottom: 1px solid gray;
-	margin-bottom: 10px;
+.face {
+    height: 300px;
+    width: 500px;
+    display: block; 
+    margin: 0 auto;
 }
+
+.wrapper {
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align:center
+}
+
+    hr {
+    margin: 24px 0;
+}
+
+
+h2 {
+    text-align: center;
+    padding: 46px 0 6px 0;
+}
+
+
+
+}
+
+
+ul {
+    width: 20
+}
+
+
+.section 
+{
+    padding-top: 40px;
+    padding-left: 40px;
+    line-height: 30px;
+}
+
+.section li{
+    padding: 20px;
+}
+
+.priorities {
+    margin-top:20px;
+    width:40;
+    font-size: 20px;
+    padding-right: 70px;
+    padding-left: 90px;   }
+
+
+
 
 p {
-	margin: 0 0 5px; /*bottom space between paragraphs*/
-	padding: 0 0 0 10px; 
-}
-
-h1 {
-	margin: 30px 0 10px 0;
-	text-align: center;
-	font-size: 20px;
-}
-
-ul{
-	margin: 20px 0 0;
-}
-
-.my-photo{
-	display: block; /*без этого не работает "margin: auto", поскольку по умолч стоит "inline"*/
-	margin: 0 auto;
-}
-
-.bottom-space {
-	margin-bottom: 30px;
-}
-
-.border-none{
-	border: none;
-}
+    line-height: 20px;
