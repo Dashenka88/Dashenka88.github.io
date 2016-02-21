@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after, .clearfix:before {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body {
+    background: url(../img/background1.png);
+    background-size: contain;
+    font-family: Tahoma, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    background: white;
+}
+
+header {
+    width: 960px;
+        padding: 0px 20px;
+}
+
+header .logo {
+    float: left;
+    width: 283px;
+    padding-top: 9px;
+    height: 168px;
+}
+
+header .contacts {
+    float: right;
+    padding-top: 10px;
+    color: rgba(18, 138, 167, 0.8);
+}
+
+header .contacts ul {
+    list-style: none;
+}
+
+header .contacts li {
+    font-size: 12px;
+    line-height: 20px;
+}
+}
+
+
+header .contries {
+    float: right;
+    padding-left: 240px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+header .contries ul {
+    list-style: none;
+    line-height: 0;
+    font-size: 0;
+    vertical-align: 0;
+}
+
+header .contries li {
+    
+    display: inline-block;
+    padding: 0px 5px;
+    line-height: 15px;
+}
+
+header .contries li a {
+    display: block;
+    font-size: 10px;
+    color: #128aa7;
+    text-align: center;
+}
+
+header .contries li a span {
+    display: block;
+    width: 55px;
+}
+
+header .contries li a:hover {
+    text-decoration: none;
+}
+
+.menu {
+    position: absolute;
+    top: 417px;
+    width: 1000px;
+    border-bottom: 1px solid black;
+    background: rgb(55,55,55); 
+    background: -webkit-linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
+    background: -o-linear-gradient(rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='grey',GradientType=0 ); 
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+.menu ul li{
+    position: relative;
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    position: relative;
+    padding: 0 33px;
+    display: block;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu ul ul+a:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: 10px;
+    height: 5px;
+    width: 5px;
+    background: url(../img/triangle.png) 0 0 no-repeat;
+}
+
+.menu ul ul{
+    position: absolute;
+    left: 25px;
+    visibility: hidden;
+    top: 0px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.menu ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+
+.menu ul li{
+    background: grey;
+}
+.menu ul ul a{
+    padding: 0 10px;
+}
+
+
+.columns {
+    padding-top: 27px;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    color: #424c43;
+}
+
+.columns h3 {
+    line-height: 30px;
+}
+.columns ul {
+    list-style: none;
+    font: Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.left_block {
+    width: 209px;
+    float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    background: #edeef0;
+}
+
+.central_block {
+    width: 582px;
+    float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    background: #fff;
+    color: #fff;
+}
+
+.right_block {
+    width: 209px;
+    float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    background: #edeef0;
+}
+
+footer {
+    font: 400 12px Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    line-height: 30px;
+}
