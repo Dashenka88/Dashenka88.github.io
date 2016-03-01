@@ -113,7 +113,7 @@ header .greet {
     font-size: 14px;
     font-family: "Helvetica Neue Regular", Tahoma, sans-serif;
     font-weight: bold;
-    background: url(../img/Layer-2-copy.png);
+    background: rgba(0,0,0,0.5);
 }
 
 .cadastre {
