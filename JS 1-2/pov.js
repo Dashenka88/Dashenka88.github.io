@@ -3,6 +3,8 @@
  */
 
 // POV
+var number = prompt('Enter number');
+var degree = prompt('Enter degree');
 
 function pov(number, degree) {
     var result = 1;
@@ -11,3 +13,4 @@ function pov(number, degree) {
     }
     return result;
 }
+alert(number + ' в степени ' + degree + ' равно : ' + (pov(number, degree)));
