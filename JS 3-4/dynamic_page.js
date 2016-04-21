@@ -1,5 +1,3 @@
-// DYNAMICALLY CREATED PAGE
-
 
 // DYNAMIC PAGE OBJECT
 
@@ -13,7 +11,7 @@ var dynamicPage = {
             checkBox.setAttribute('type', 'checkbox');
             checkBox.setAttribute('id', 'answer' + counter);
             checkBox.setAttribute('value', 'a');
-            checkBox.style.marginRight = '20px';
+            checkBox.style.marginRight = '22px';
             var answerLabel = document.createElement('label');
             answerLabel.setAttribute('for', 'answer' + counter); // this corresponds to the checkbox id
             answerLabel.style.marginLeft = '50px';
