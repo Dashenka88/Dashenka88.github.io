@@ -1,0 +1,22 @@
+h1,
+form {
+	text-align: center;
+}
+
+form {
+	width: 65%;
+}
+
+.checkbox {
+    padding-left: 30px;
+}
+
+.answers input {
+	margin-left: 55px;
+	margin-right: 8px;
+}
+
+form button {
+	margin-left: 50%;
+	margin-top: 20px;
+}
